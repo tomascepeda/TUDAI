@@ -1,0 +1,32 @@
+<!--portada-->
+<aside class="portada">
+    <h3 class="text-center">Catálogo</h3>
+</aside>
+
+<section>
+    <table class="table shadow-lg p-3 mb-5 bg-white rounded">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Tipo</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+                <th scope="col">En oferta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let producto of productos" class="list-group-item-success" [ngClass]="{'list-group-item-danger': producto.stock<=0}">
+                <td>{{producto.tipo | uppercase}}</td>
+                <td>{{producto.nombre | uppercase}}</td>
+                <th scope="col">{{producto.precio | currency}}</th>
+                <td>{{producto.stock}} unidades disponibles</td>
+                <td>
+                    <h4>
+                        <span class="badge badge-success" *ngIf="producto.oferta">SI</span>
+                        <span class="badge badge-danger" *ngIf="!producto.oferta">NO</span>
+                    </h4>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>

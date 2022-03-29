@@ -1,0 +1,30 @@
+.portada {
+    background-color: green;
+    height: 300px;
+    width: auto;
+    padding-top: 120px;
+    background: url("https://i.ibb.co/g9JV64Y/bg-home.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portada h3 {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 40px;
+}
+
+td{
+    width: max-content !important;
+}
+
+td h4{
+    width: min-content;
+}
+
+section table{
+    margin: 3% auto;
+    width: 95% !important;
+}

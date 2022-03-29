@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario La Voz de Exactas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes\icono.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes\logo.png" alt="Logo.png" />
+
+        <h1 class="presentacion-h">Diario La Voz de Exactas</h1>
+
+        <div class="browser">
+            <form>
+                <input class="buscador-h" type="text" />
+                <button type="submit" class="boton-brow">
+                    <p class="txt-butt-brow">Buscar</p>
+                </button>   
+            </form>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <a class="navbar-brand links" href="formulario.html">POSTULATE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link links" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link links" href="noticia.html">NOTICIAS<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="formulario-registro">
+
+            <div class="form-adviser">
+                <h1>Complete el Formulario para postularse</h1>
+            </div>
+
+            <form id="formulario">
+                <table class="tabla-reg">
+                    <thead>
+                        <th colspan="2">
+                            <h1>Registro</h1>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h3>Nombre</h3>
+                            </td>
+                            <td>
+                                <h3>Apellido</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="campo-txt"><input type="text" placeholder="ej. Juan" required>
+                            </td>
+                            <td class="campo-txt"><input type="text" placeholder="ej. Perez" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Telefono</h3>
+                            </td>
+                            <td>
+                                <h3>Edad</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="campo-txt"><input type="number" name="phone" placeholder="sin 0 ni 15" required>
+                            </td>
+                            <td class="campo-txt"><input type="number" name="fecha-nac" placeholder="En años, ej. 20" required></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <h3>Por Favor, Completa el Siguiente Captcha</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="captcha">
+                                <img id="foto-captcha" src=""></img>
+                                <button id="cambiar-img" type="button" class="boton-cap">Cambiar Imagen</button>
+                            </td>
+                            <td id="validado" class="campo-txt"> <input id="validar-cap" type="text"
+                                    placeholder="Ingrese CAPTCHA" value="" required>
+                                <div id="div-validado" class="cap-true super-invisible">¡VALIDADO!</div>
+                                <div id="cargar" class="cap-true super-invisible">VALIDANDO...</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="button-foot"><input class="butt-reg" type="reset" value="Borrar"></td>
+                            <td class="button-foot"><input id="boton-send" class="butt-reg" type="submit"
+                                    value="Enviar"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+
+            <div class="form-adviser-bot">
+                <button class="butt-reg" id="cargar3elem">Agregar 3 Elementos</button>
+            </div>
+
+            <table class="postulantes">
+                <thead>
+                    <th colspan="5">
+                        <h1>Postulantes</h1>
+                    </th>
+                </thead>
+                <tbody>
+                    <td>
+                        <h3>Nombre</h3>
+                    </td>
+                    <td>
+                        <h3>Apellido</h3>
+                    </td>
+                    <td>
+                        <h3>Telefono</h3>
+                    </td>
+                    <td>
+                        <h3>Edad</h3>
+                    </td>
+                    <td>
+                        <h3>Opciones</h3>
+                    </td>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="button4admin" colspan="2">
+                            <button id="vaciar-tabla">Vaciar Tabla</button>
+                        </td>
+                        <td class="button4admin" colspan="3">
+                            <button id="resaltados">Mayores de Edad</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+
+        <aside class="publicidad">
+            <img src="imagenes\pub 1.png" alt="ad">
+            <img src="imagenes\pub 2.png" alt="ad">
+            <img src="imagenes\pub 3.jpg" alt="ad">
+            <img src="imagenes\pub 4.jpg" alt="ad">
+            <img src="imagenes\pub 5.jfif" alt="ad">
+        </aside>
+
+    </main>
+
+    <footer>
+        <p class="copyr">Copyright © 2020 TC2000</p>
+        <ul>
+            <li>
+                <a href='https://www.instagram.com/tomascepeda_/?hl=es'>
+                    <img src="imagenes\social 1.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://www.facebook.com/'> <img src="imagenes\social 2.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://twitter.com/explore'> <img src="imagenes\social 3.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://github.com/tomascepeda'> <img src="imagenes\social 4.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='index.html'> <img src="imagenes\social 5.png" alt="Social.png">
+                </a>
+        </ul>
+    </footer>
+
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>

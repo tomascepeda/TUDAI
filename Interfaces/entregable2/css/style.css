@@ -1,0 +1,122 @@
+body{ 
+
+    background-image: url("../img/fondocancha.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#tablero{
+    height: 95%;
+}
+#botonera{
+    height: 5%;
+}
+
+.pulse:hover, .pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+   }
+}
+.fill {
+    --color: #a972cb;
+    --hover: #cb72aa;
+}
+.pulse {
+    --color: #ef6eae;
+    --hover: #ef8f6e;
+}
+
+.btn-start{
+    background-color: #D13210;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.modalinic{
+    padding: 15px 15px;
+}
+
+.modalinic label{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.modalinic h5{
+    color: rgb(6, 128, 6) !important;
+}
+
+.btn-jugar{
+    margin: 10px 10px;
+}
+
+.modalsett{
+    margin-top: 20%;
+}
+
+.modalsett h3{
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(6, 128, 6) !important;
+}
+
+.btnlog{
+    /*background-color: green !important;*/
+    background-image: linear-gradient(to right,rgb(102, 204, 0),rgb(6, 128, 6),rgb(102, 204, 0)) !important;
+    border: white !important;
+}
+  
+.btnlog:hover{
+    background-image: linear-gradient(to left,rgb(6, 128, 6),rgb(102, 204, 0),rgb(6, 128, 6)) !important;
+    font-weight: bolder;
+    color: rgb(2, 1, 1) !important;
+}
+
+.label-canvas h3{
+    text-align: center;
+    color: white;
+}
+
+.label-canvas h5{
+    color: white;
+}
+
+.txt-turno-j1{
+    text-align: center;
+    color: red;
+}
+
+.txt-turno-j2{
+    text-align: center;
+    color: yellow;
+}
+
+#btn-reiniciar{
+   margin-top: 0px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+
+#restart{
+    color: white;
+}
+
+.img-ficha{
+    width: 30px;
+    height: 30px;
+}
+
+.ficha-selected{
+    border: 5px solid green;
+}
+
+.modalsito{
+    margin-top: 40px !important;
+}

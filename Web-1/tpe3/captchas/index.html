@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario La Voz de Exactas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes\icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes\logo.png" alt="Logo.png" />
+
+        <h1 class="presentacion-h">Diario La Voz de Exactas</h1>
+
+        <div class="browser">
+            <form>
+                <input class="buscador-h" type="text" />
+                <button type="submit" class="boton-brow">
+                    <p class="txt-butt-brow">Buscar</p>
+                </button>   
+            </form>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <a class="navbar-brand links" href="index.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link links" href="noticia.html">NOTICIAS<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link links" href="formulario.html">POSTULATE<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="noticias">
+            <h2 class="titulares">Noticias</h2>
+
+            <div class="columna">
+
+                <div id="noticia-1">
+                    <h2 class="title-noticia-1">Clases Virtuales</h2>
+                    <iframe src="https://www.youtube.com/embed/UvuHuULc_0U" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Se espera que el equipo de cátedra defina los canales de comunicación y
+                        los espacios donde dará continuidad a la propuesta académica. ¿Qué se va
+                        a hacer desde el espacio curricular? Esta decisión deberá ser acorde a las
+                        posibilidades del equipo docente y sus conocimientos.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="title-noticia-2">Web Design</h2>
+                    <iframe src="https://www.youtube.com/embed/9Hp-hCnRXRc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Con un excelente diseño Web se aumentan las posibilidades de que haya una mejor conexión con cada
+                        persona que visita nuestra página, que lea el contenido y cumpla con acciones más específicas
+                        como
+                        suscribirse, dejar comentarios, recomendar la página, etc.<button id="see-more"
+                            class="vermas">Ver
+                            Mas</button> </p>
+                    <p id="texto-oculto" class="super-invisible">Antes de enfocarse en cómo va a ser tu diseño Web, es
+                        muy importante definir tu objetivo principal. Todos los elementos que vamos a ver en este
+                        tutorial van a ser una ayuda y soporte para que el objetivo se pueda cumplir.</p>
+                </div>
+
+            </div>
+
+            <div class="columna">
+
+                <div>
+                    <h2 class="title-noticia-1">Layouts Designs</h2>
+                    <iframe src="https://www.youtube.com/embed/94sT_66nQeA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>La noción de layout suele utilizarse para nombrar al esquema de distribución de los elementos
+                        dentro un diseño. Es habitual que un diseñador que se dedica a la creación de páginas web
+                        desarrolle un layout y se lo presente a su cliente para que éste lo apruebe y decida sobre la
+                        distribución de los contenidos.</p>
+                </div>
+
+                <div>
+                    <h2 class="title-noticia-2">Box Model</h2>
+                    <iframe src="https://www.youtube.com/embed/uC1yqPF4_KU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Todos los elementos HTML se pueden considerar como cuadros. En CSS, el término "modelo de caja"
+                        se usa cuando se habla de diseño y diseño.
+                        El modelo de cuadro CSS es esencialmente un cuadro que envuelve todos los elementos HTML.
+                        Consiste en: márgenes, bordes, relleno y el contenido real.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <aside class="publicidad">
+            <img src="imagenes\pub 1.png" alt="ad">
+            <img src="imagenes\pub 2.png" alt="ad">
+            <img src="imagenes\pub 3.jpg" alt="ad">
+            <img src="imagenes\pub 4.jpg" alt="ad">
+            <img src="imagenes\pub 5.jfif" alt="ad">
+        </aside>
+
+    </main>
+
+    <footer>
+        <p class="copyr">Copyright © 2020 TC2000</p>
+        <ul>
+            <li>
+                <a href='https://www.instagram.com/tomascepeda_/?hl=es'>
+                    <img src="imagenes\social 1.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://www.facebook.com/'> <img src="imagenes\social 2.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://twitter.com/explore'> <img src="imagenes\social 3.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://github.com/tomascepeda'> <img src="imagenes\social 4.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='index.html'> <img src="imagenes\social 5.png" alt="Social.png">
+                </a>
+        </ul>
+    </footer>
+    <script src="js\inicio.js"></script>
+</body>
+
+</html>

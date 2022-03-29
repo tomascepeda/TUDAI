@@ -1,0 +1,83 @@
+body{
+    display: flex;
+}
+
+nav{
+    position: unset;
+}
+
+.portada{
+    background: url("../images/backg2.jpg");
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 300px;
+   width: auto;
+   align-items: center;
+}
+
+.portada h3{
+    margin: 8% auto;
+    color: white !important;
+    text-shadow: 5px 5px 15px black;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.lista h3{
+    color: #343a40 !important;
+    margin: 1% auto !important;
+    width: auto;
+    text-align: center;
+}
+
+.download{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+#paginacion{
+    margin: 0 auto !important;
+    margin-bottom: 35px !important;
+}
+
+#paginacion ul{
+    width: min-content;
+    margin: 0 auto !important;
+}
+
+.oculto{
+    display: none;
+}
+
+.lista form button{
+    margin: 0px 2px !important;
+}
+
+.formpaginacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.formpaginacion input{
+    width: 15%;
+}
+
+.formpaginacion button{
+    border-radius: 5px !important;
+}
+
+.formpaginacion h5{
+    margin-top: 6px;
+}

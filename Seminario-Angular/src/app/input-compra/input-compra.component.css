@@ -1,0 +1,19 @@
+.compra{
+    display: flex;
+    flex-direction: row;
+}
+
+.menos{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.mas{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.cantidad{
+    width: 70px;
+    border-radius: 0px !important;
+}

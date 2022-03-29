@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario La Voz de Exactas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes\icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes\logo.png" alt="Logo.png" />
+
+        <h1 class="presentacion-h">Diario La Voz de Exactas</h1>
+
+        <div class="browser">
+            <input class="buscador-h" type="text" value="" maxlength="25" />
+            <button type="button" class="boton-brow">
+                <p class="txt-butt-brow">Log In</p>
+            </button>
+            <h2 class="usuario-header super-invisible">Te has logueado como: <span id="nombre-usuario"
+                class="usuario-header"></span> </h2>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <a class="navbar-brand links" href="noticia.html">NOTICIAS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link links" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link links" href="formulario.html">POSTULATE<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="noticia-desarrollada">
+            <h1 class="title-noticia-1">Clases Virtuales</h1>
+            <img class="foto-not-des" src="imagenes\noticia 1.jpg" alt="Noticia.jpg">
+            <p class="txt-noticia-des">Se espera que el equipo de cátedra defina los canales de comunicación y
+                los espacios donde dará continuidad a la propuesta académica. ¿Qué se va
+                a hacer desde el espacio curricular? Esta decisión deberá ser acorde a las
+                posibilidades del equipo docente y sus conocimientos. Es decir, se sugiere
+                que pueda organizar y planificar la propuesta a partir de herramientas y
+                espacios que conoce o que está dispuesto a explorar y profundizar.
+                Es recomendable que se pueda combinar el uso de herramientas para
+                dar respuesta y seguimiento a los estudiantes. Por ejemplo, el uso de un aula
+                virtual y algún medio de comunicación más dinámico. No todos los
+                estudiantes tienen la práctica de revisar sus correos electrónicos
+                periódicamente, entonces serán hábitos a enseñar y sostener. No obstante
+                en estos contextos se espera reforzar con otras herramientas que sabemos
+                o estimamos son más habituales para ellos.</p>
+
+            <div class="comentarios">
+
+                <h2 class="title-comments">comentarios</h2>
+
+                <div class="campo-comentarios">
+                    <ul id="lista">
+                        <li> <img src="imagenes/ADMIN.JPG" alt="admin.jpg"> Tomás Cepeda (admin): Editado por ultima vez
+                            el 27/04.</li>
+                        <li><img src="imagenes/ADMIN.JPG" alt="admin.jpg"> Tomás Cepeda (admin): Historial de cambios en
+                            <a href="https://github.com/tomascepeda/Web-1">github</a> </li>
+                        <li> <img src="imagenes/desconocidos.png" alt="admin.jpg">Javi D: Yo estoy los lunes por meet
+                        </li>
+                        <li> <img src="imagenes/desconocidos.png" alt="admin.jpg">Javi R: Yo los jueves
+                        </li>
+                        <li> <img src="imagenes/desconocidos.png" alt="admin.jpg">Franquito: Que buena noticia</li>
+                    </ul>
+                    <button id="cambio-orden-lista">Ordenar por: Mas recientes primero</button>
+                    <input class="in-txt" id="comment-input" type="text" placeholder="Escriba algo aqui."
+                        maxlength="55">
+                    <button id="btn-comentar">Comentar</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <aside class="publicidad">
+            <img src="imagenes\pub 1.png" alt="ad">
+            <img src="imagenes\pub 2.png" alt="ad">
+            <img src="imagenes\pub 3.jpg" alt="ad">
+            <img src="imagenes\pub 4.jpg" alt="ad">
+            <img src="imagenes\pub 5.jfif" alt="ad">
+        </aside>
+
+    </main>
+
+    <footer>
+        <p class="copyr">Copyright © 2020 TC2000</p>
+        <ul>
+            <li>
+                <a href='https://www.instagram.com/tomascepeda_/?hl=es'>
+                    <img src="imagenes\social 1.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://www.facebook.com/'> <img src="imagenes\social 2.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://twitter.com/explore'> <img src="imagenes\social 3.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='https://github.com/tomascepeda'> <img src="imagenes\social 4.png" alt="Social.png"> </a>
+            </li>
+            <li>
+                <a href='index.html'> <img src="imagenes\social 5.png" alt="Social.png">
+                </a>
+        </ul>
+    </footer>
+
+    <script src="js/noticia.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.portada{
+    background: url("https://i.ibb.co/TWQhw6G/bg-about.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card{
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 50% !important;
+}
+
+.card img{
+    height: 100px;
+    margin-left: auto;
+    width: 80px !important;
+}

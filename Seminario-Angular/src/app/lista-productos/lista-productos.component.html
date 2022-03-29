@@ -1,0 +1,31 @@
+<table class="table shadow-lg p-3 mb-5 bg-white rounded">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Tipo</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Compra</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let producto of productos" [ngClass]="{'oferta': producto.oferta}">
+            <td>{{producto.tipo | uppercase}}</td>
+            <td>{{producto.nombre | uppercase}}</td>
+            <th scope="col">{{producto.precio | currency}}</th>
+            <td>
+                <h4>
+                    <span class="badge badge-success" *ngIf="producto.stock>0">Disponible</span>
+                    <span class="badge badge-danger" *ngIf="producto.stock<=0">Agotado</span>
+                </h4>
+            </td>
+            <td>
+                <app-input-compra [(cantidad)]="producto.cantidad" [max]="producto.stock" *ngIf="producto.stock>0" (maxReached)="maxReached($event)"></app-input-compra>
+            </td>
+            <td>
+                <button class="btn btn-primary compra" (click)="agregarAlCarrito(producto)" *ngIf="producto.stock>0"><img src="https://i.ibb.co/WHd5PPz/shopping-cart.png" alt="cart.png"></button>
+            </td>            
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,298 @@
+
+/* -------------------General ----------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0%;
+}
+
+footer{
+    background-color: #679612;
+    height: max-content;
+}
+
+footer h3{
+    color: white;
+    padding: 15px;
+}
+
+.display-none{
+    display: none;
+}
+
+.inicio-juego{
+    background-image: url(./img/bkgd4.jpg);
+    background-size: cover;
+}
+
+.inicio-juego .reglas{
+    margin: 3% auto !important;
+}
+
+.inicio-juego h1{
+    padding-top: 2%;
+    font-family: "Press Start 2P";
+    font-size: 350%;
+    color: lightgreen;
+    -webkit-text-stroke: 3px darkgreen;
+}
+
+.btn-jugar{
+    font-family: "Press Start 2P";
+    font-size: 200%;
+    color: lightgreen;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border: none;
+    background: url(img/button.png) no-repeat no-repeat;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.btn-reiniciar{
+    font-family: "Press Start 2P";
+    font-size: 15px;
+    height: 55px;
+    color: yellow;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border: none;
+    background: url(img/button.png) no-repeat no-repeat;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.boton-play{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.inicio-juego p{
+    margin-left: 2%;
+    font-family: "Press Start 2P";
+    font-size: 130%;
+    color: lightgreen;
+    -webkit-text-stroke: 1px darkgreen;
+}
+
+.instrucciones{
+    margin-top: 0%;
+}
+
+.puntaje span{
+    font-family: "Press Start 2P";
+}
+
+/* ------------------ Jugador --------------------*/
+
+.diego-correr{
+    width: 163px;
+    height: 230px;
+    background: url(./img/diegos.png) repeat-x;
+    animation: correr 0.8s steps(11) infinite;
+    margin-bottom: 100px;
+    top: 200px;
+    margin-left: 70px;
+    position: absolute;
+    /*border: red 1px solid;*/
+}
+
+.reglas{
+    border-style: solid;
+    border-image-source: url(img/border-image.png);
+    border-image-repeat: repeat;
+    border-image-slice: 6 6 6 6;
+    border-image-width: 18px;
+    border-width: 15px;
+    padding: 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: url(img/background-image.png) repeat repeat;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: center;
+}
+
+#modal{
+    display: none;
+    font-family: "Press Start 2P";
+    color: green !important;
+}
+
+.diego-salto{
+    width: 163px;
+    height: 260px;
+    background: url(./img/diegos.png) repeat-x;
+    animation: saltar 1.5s steps(11) infinite;
+    margin-bottom: 100px;
+    top: 220px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.perdiste{
+   position: absolute;
+    top: 100px;
+}
+
+.subtitulo{
+    color: #d27d2c !important;
+    font-size: 30px !important;
+    text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -2px black !important;
+}
+
+#btn-play{
+    height: 45px;
+    color: greenyellow;
+}
+
+.moneda{
+    height: 24px;
+}
+
+.contenido-box::first-letter {
+    text-align: center;
+    color: #fff870;
+    background-color: #d27d2c;
+    border: 2px solid #000;
+    padding: 8px;
+    margin: 2px;
+}
+
+.contenido-box{
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 25px;
+    line-height: 22px;
+}
+
+@keyframes correr {
+    0% {background-position: 0 -650px; transform: translateY(0);}
+    100% {background-position: -1815px -650px; transform: translateY(30px);}
+}
+
+@keyframes saltar {
+    0% {background-position: 0 -1200px; transform: translateY(0px);}
+    45% {transform: translateY(-240px);}
+    65% {transform: translateY(-240px);}
+    100% {background-position: -1815px -1200px; transform: translateY(-40px);}
+}
+
+/* ---------------------- Escenario ----------------------*/
+
+.cesped{
+    background: url(./img/cesped.jpg);
+    width: 100%;
+    height: 125px;
+    top: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: scroll 4s linear infinite;
+}
+
+.cielo{
+    background: url(./img/cielo.png);
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: scroll 30s linear infinite;
+}
+
+.tribuna{
+    background: url(./img/nuevatribuna.jpg);
+    width: 100%;
+    height: 113px;
+    top: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: scroll 10s linear infinite;
+}
+
+.letrero{
+    background: url(./img/letreros.jpg);
+    width: 100%;
+    height: 35px;
+    top: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: scroll 4s linear infinite;
+}
+
+.ayudantes{
+    background: url(./img/ayudantes.png);
+    width: 100%;
+    height: 93px;
+    top: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: scroll 7s linear infinite;
+}
+
+@keyframes scroll {
+    0% {background-position: 0;}
+    100% {background-position: -1366px;}
+}
+
+/* ------------------ Copa ----------------------*/
+
+.copa{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: 100%;
+    top: 20px;
+    bottom: 0;
+    background: url(./img/copa.png);
+    background-size: cover;
+    animation: translate 4s linear infinite;
+}
+
+@keyframes translate {
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(-2000px);}
+}
+
+/* ----------------- Enemigo ---------------------*/
+
+.enemigo-terrestre{
+    /*border: red 1px solid;*/
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: 100%;
+    top: 300px;
+    bottom: 0;
+    background: url(./img/ingles.png);
+    background-size: cover;
+    animation: translate 3s linear infinite;
+}
+
+.enemigo-aereo{
+    /*border: red 1px solid;*/
+    position: absolute;
+    width: 100px;
+    height: 160px;
+    left: 100%;
+    top: 20px;
+    bottom: 0;
+    background: url(./img/arquero.png);
+    background-size: cover;
+    animation: translate 6s linear infinite;
+}
+
+.puntaje{
+    background-color: #679612;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

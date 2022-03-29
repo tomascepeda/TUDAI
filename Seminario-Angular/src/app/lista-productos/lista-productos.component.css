@@ -1,0 +1,18 @@
+.compra{
+    display: flex;
+    flex-direction: row;
+}
+
+.oferta{
+    background-color: lightgreen;
+}
+
+button img{
+    margin: 0px!;
+    width: 30px;
+    height: 25px;
+}
+
+.compra{
+    padding: 3%;
+}

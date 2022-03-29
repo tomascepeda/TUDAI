@@ -1,0 +1,70 @@
+
+.formularios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav{
+    position: unset;
+}
+
+.formularios form{
+    width: 45%;
+    margin-top: 3%;
+}
+
+.formularios form h6, .formulario-aumentos form h6{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.formulario-aumentos{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-aumentos form{
+    width: 50%;
+}
+
+.forms{
+    background: url("../images/bg.jpg");
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h3{
+    text-align: center;
+}
+
+.oculto{
+    display: none;
+}
+
+.editar, .editar_marcas{
+    margin: 3% auto;
+    width: 80%;
+}
+
+.editar h6, .editar_marcas h6{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.editar_marcas .form-row{
+    width: 100% !important;
+}
+
+.editar_marcas .form-row input{
+    width: 204% !important;
+}
+
+.lista h4{
+    text-align: center;
+}

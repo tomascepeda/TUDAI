@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Basic Web Paint</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.jpg">
+</head>
+
+<body>
+    <div class="container-max">
+
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="negativo">Negativo</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="brillo">Brillo</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="blanco-negro">Binarizacion</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="sepia">Sepia</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="grises">Grises</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="blur">Blur</button>
+                    </li>
+                    <li class="nav-txt">
+                        <button class="txt-bar" id="saturacion">Saturacion</button>
+                    </li>
+
+                    <li class="nav-txt display-row display-none" id="li-intensidad">
+                        <p class="txt-bar rangebar">Intensidad</p>
+                        <input id="intensidad" type="range" min="0" max="255" autocomplete="off" enabled>
+                    </li>
+                    <li class="nav-txt">
+                        <button id="reset" class="txt-bar">Reset</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid fix-padding drawer">
+        <div class="d-flex justify-content-start ">
+            <div class="tools left-col">
+                <table class="table-tools">
+                    <tbody>
+                        <p class="txt-bar text-center text-tool">Herramientas</p>
+                        <tr>
+                            <td><button id="lapizBtn" class="table-btn lapiz-icon"></button></td>
+                            <td><button id="gomaBtn" class="table-btn goma-icon"></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="txt-colr" class="txt-bar text-center txt-inp display-none">Color</p>
+                <div class="d-flex justify-content-center">
+                    <input class="display-none" type="color" id="favcolor" name="favcolor" value="#000000" disabled>
+                </div>
+                <p id="txt-tam" class="txt-bar text-center txt-inp display-none">Tamaño</p>
+                <input class="display-none" id="coloursize" type="range" value="1" min="1" max="20" autocomplete="off"
+                    disabled>
+                <p class="txt-bar text-center txt-img">Imagen</p>
+                <table class="subtable">
+                    <tbody>
+                        <tr>
+                            <td class="subtable-td">
+                                <button id="btn-subir-img" class="table-btn">
+                                    <h5>Importar
+                                        <input id="subir-img" class="display-none" type="file" name="imagen"
+                                            accept=".jpeg,.jpg,.png,.tiff,.bmp,.psd" />
+                                    </h5>
+                                </button></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subtable-td">
+                                <button class="table-btn" id="download">
+                                    <h5>Descargar</h5>
+                                </button></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- --------------- CANVAS --------------- -->
+            <canvas class="canvas-init dimensiones" id="canvas-js" width="1211" height="551">
+            </canvas>
+        </div>
+    </div>
+
+    <!--
+    <footer class="footer text-center">
+        <h5>Pagina Realizada por Tomas Cepeda y Jeremias Caballero</h5>
+        <a href="https://github.com/tomascepeda/Interfaces"><img class="img-footer" src="./img/github.png"></a>
+    </footer>
+    -->
+    <script type="module" src="js/entryPoint.js"></script>
+    <script src="js/Filters/Filter.js"></script>
+    <script src="js/Filters/Grises.js"></script>
+    <script src="js/Filters/Binarizacion.js"></script>
+    <script src="js/Filters/Brillo.js"></script>
+    <script src="js/Filters/Blur.js"></script>
+    <script src="js/Filters/Sepia.js"></script>
+    <script src="js/Filters/Negativo.js"></script>
+    <script src="js/Helper/FormatColour.js"></script>
+    <script src="js/Filters/Saturacion.js"></script>
+</body>
+
+</html>

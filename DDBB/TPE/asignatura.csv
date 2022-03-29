@@ -1,0 +1,1001 @@
+tipo_asig,cod_asig,nombre_asig,cant_hs_t,cant_hs_p
+x1,1,Web 1,6,7
+h4,2,Arquitecturas web,7,8
+o7,3,Ciencias de la computacion 2,7,6
+s0,4,Fisica general,5,8
+u2,5,Ingenieria de software,3,6
+w1,6,Angular JS,6,3
+k7,7,Algebra 1,8,5
+z3,8,Electronica digital,4,7
+g6,9,Algebra 1,7,8
+i3,10,Teoria de la informacion,4,6
+d0,11,Analisis matematico 2,7,6
+a7,12,Arquitecturas de sistemas,7,6
+p0,13,Matematica discreta,7,8
+p1,14,Programacion orientada a objetos,6,7
+s1,15,GoLang,4,8
+d9,16,Ciencias de la computacion 1,3,7
+r5,17,Taller de matematica computacional,3,5
+m1,18,Web 2,6,4
+u7,19,Teoria de la informacion,4,6
+o9,20,Web 2,6,8
+h0,21,Analisis matematico 2,3,8
+i8,22,Ingenieria de software,8,7
+q5,23,Programacion 3,7,4
+d8,24,Comunicacion de datos 1,6,7
+k2,25,Arquitecturas web,6,8
+b4,26,Arquitectura de computadoras 1,6,3
+c4,27,Estructura de almacenamiento de datos,6,8
+t7,28,Programacion 2,5,4
+h7,29,Algebra 1,3,7
+x3,30,Web 1,4,7
+z9,31,Ingenieria de software,5,3
+l2,32,Comunicacion de datos 1,3,4
+l4,33,Fisica general,8,5
+y7,34,Quimica,3,4
+x8,35,Programacion orientada a objetos,7,3
+a0,36,Analisis matematico 2,6,7
+s9,37,Web 1,6,8
+e3,38,Ciencias de la computacion 1,3,3
+l9,39,Arquitectura de computadoras,5,8
+f0,40,Programacion orientada a objetos,7,3
+u0,41,Diseño de sistemas de software,8,5
+u7,42,Analisis y diseño de algoritmos 2,3,6
+d3,43,Teoria de la informacion,4,8
+b1,44,Teoria de la informacion,7,5
+h7,45,Analisis y diseño de algoritmos 2,6,7
+d6,46,Algebra 1,6,6
+m6,47,Validacion del software,4,6
+d8,48,GoLang,7,6
+s4,49,Programacion 1,5,4
+f2,50,Ingenieria de software,6,6
+j0,51,Estructura de almacenamiento de datos,5,7
+p1,52,Ingles 1,4,8
+b6,53,Introduccion al calculo diferencial,7,4
+j4,54,Programacion exploratoria,4,7
+i0,55,Quimica,4,7
+m6,56,Analisis y diseño de algoritmos 2,3,3
+e5,57,Sistemas operativos,4,8
+x8,58,Validacion del software,7,3
+z8,59,Ciencias de la computacion 2,5,5
+w4,60,Introduccion al calculo diferencial,3,5
+n9,61,GoLang,3,6
+m3,62,Taller de matematica computacional,6,4
+z9,63,Ciencias de la computacion 1,6,3
+u4,64,Comunicacion de datos 1,4,6
+k9,65,Programacion exploratoria,3,4
+y1,66,MongoDB,7,4
+r5,67,Fisica general,6,3
+r1,68,Web 1,8,5
+f7,69,Metodologias de desarrollo de software,3,5
+o6,70,Metodologias de desarrollo de software,3,8
+g9,71,Taller de matematica computacional,8,3
+e7,72,Arquitecturas de sistemas,7,3
+k2,73,Fisica general,8,4
+f3,74,Introduccion al calculo diferencial,5,6
+q8,75,Analisis matematico 1,6,7
+f3,76,Programacion 3,6,8
+a3,77,Matematica discreta,4,4
+f1,78,Angular JS,8,3
+w2,79,Comunicacion de datos 2,3,8
+o1,80,Comunicacion de datos 1,8,5
+k0,81,Teoria de la informacion,6,8
+g1,82,Electronica digital,3,4
+j8,83,Algebra 1,4,7
+r0,84,Base de datos,3,3
+w2,85,Desarrollo de aplicaiciones en redes,3,4
+r3,86,Matematica discreta,7,3
+w4,87,Algebra 1,3,4
+v1,88,Ingles 2,3,7
+k7,89,Programacion 2,4,8
+c2,90,Ciencias de la computacion 2,3,5
+u7,91,Web 2,7,8
+k7,92,Web 1,5,4
+f4,93,Arquitecturas web,3,7
+z1,94,Web 1,7,4
+i8,95,Diseño de sistemas de software,7,3
+i6,96,Web 1,3,5
+o5,97,Comunicacion de datos 1,7,6
+b1,98,Ingles 2,3,7
+h9,99,Lenguajes de programacion,4,8
+y3,100,Introduccion al calculo diferencial,4,5
+d9,101,Programacion 2,4,4
+k0,102,Programacion orientada a objetos,4,6
+w9,103,Fisica general,6,6
+u2,104,Ingles 2,3,7
+g8,105,Web 1,5,6
+g7,106,Comunicacion de datos 1,4,7
+z4,107,Ingenieria de software,8,6
+a0,108,Interfaces de usuario,4,4
+t6,109,Analisis matematico 1,4,6
+n0,110,Arquitecturas web,4,5
+m2,111,Programacion 2,6,5
+j2,112,Arquitecturas de sistemas,6,5
+z5,113,Validacion del software,7,4
+y5,114,Angular JS,5,8
+q6,115,Teoria de la informacion,5,5
+s6,116,Arquitectura de computadoras 1,4,7
+f0,117,Estructura de almacenamiento de datos,3,3
+y7,118,Algebra lineal,6,6
+l9,119,MongoDB,6,3
+t0,120,Matematica discreta,7,6
+d8,121,Introduccion al calculo diferencial,8,6
+z6,122,Base de datos,3,5
+e5,123,Comunicacion de datos 1,6,8
+m6,124,Analisis y diseño de algoritmos,8,3
+a0,125,Taller de matematica computacional,8,8
+m9,126,Desarrollo de aplicaiciones en redes,6,5
+j6,127,Metodologias de desarrollo de software,3,3
+y8,128,Analisis y diseño de algoritmos,3,3
+k8,129,Fisica general,4,7
+m3,130,Electronica digital,3,4
+m8,131,Desarrollo de aplicaiciones en redes,7,7
+g4,132,Angular JS,7,4
+a6,133,Ingenieria de software,3,4
+l9,134,Ingenieria de software,4,3
+j6,135,Analisis y diseño de algoritmos 2,4,4
+k7,136,Fisica general,3,3
+h3,137,Introduccion al calculo diferencial,5,6
+p9,138,Programacion 1,4,3
+p1,139,Ingenieria de software,7,5
+s4,140,Validacion del software,8,5
+s5,141,Diseño de compiladores,4,7
+a6,142,Base de datos,6,7
+d8,143,Analisis matematico 2,5,5
+b5,144,Electronica digital,7,8
+f7,145,Diseño de sistemas de software,8,5
+l4,146,Arquitecturas de sistemas,3,6
+g4,147,Ingles 1,6,6
+g8,148,Ingles 1,5,4
+h9,149,Ingenieria de software,3,3
+h2,150,Sistemas operativos,8,4
+h5,151,Ingles 2,5,8
+m8,152,Estructura de almacenamiento de datos,8,6
+s1,153,Quimica,5,5
+q1,154,Fisica general,7,5
+n2,155,Electricidad y magnetismo,4,4
+o7,156,Programacion 3,8,7
+z8,157,Teoria de la informacion,6,8
+m9,158,Sistemas operativos,6,8
+w1,159,Sistemas operativos,5,4
+r8,160,Probabilidad y estadistica,3,5
+j8,161,Comunicacion de datos 2,8,3
+o0,162,Arquitectura de computadoras,4,8
+b6,163,Analisis y diseño de algoritmos 2,5,8
+e0,164,Algebra 1,8,8
+i9,165,Diseño de compiladores,7,7
+n6,166,Analisis y diseño de algoritmos 2,8,5
+m6,167,Electronica digital,5,4
+i9,168,Analisis matematico 1,6,3
+x1,169,Taller de matematica computacional,7,8
+i0,170,Angular JS,8,7
+d6,171,Electricidad y magnetismo,7,6
+x4,172,Programacion 1,3,7
+o4,173,Algebra lineal,8,5
+z6,174,Ingles 2,5,8
+f7,175,Algebra lineal,7,6
+h9,176,Arquitectura de computadoras 1,3,4
+y2,177,Electronica digital,4,6
+u9,178,Ciencias de la computacion 2,3,4
+i8,179,Fisica general,6,7
+k8,180,Fisica general,4,7
+a4,181,Estructura de almacenamiento de datos,7,7
+u1,182,Probabilidad y estadistica,6,6
+i9,183,Programacion 2,7,5
+z2,184,Programacion 3,3,8
+s2,185,Programacion exploratoria,3,7
+e9,186,Lenguajes de programacion,8,4
+g2,187,Programacion orientada a objetos,6,5
+p2,188,Web 1,8,4
+y8,189,Quimica,3,3
+m3,190,Diseño de sistemas de software,3,6
+d8,191,Algebra lineal,3,5
+u3,192,Taller de matematica computacional,4,3
+y6,193,Fisica general,4,3
+i2,194,Base de datos,8,6
+o8,195,Validacion del software,8,4
+v9,196,Electronica digital,4,3
+h8,197,Programacion 2,6,4
+q2,198,GoLang,6,4
+b7,199,Ingles 2,6,7
+r8,200,Ciencias de la computacion 2,3,5
+m5,201,Ciencias de la computacion 1,8,6
+e9,202,Desarrollo de aplicaiciones en redes,3,4
+v7,203,Taller de matematica computacional,5,8
+p9,204,Teoria de la informacion,7,4
+i8,205,Comunicacion de datos 2,4,4
+z4,206,Desarrollo de aplicaiciones en redes,3,8
+e9,207,Base de datos,8,5
+o2,208,Comunicacion de datos 1,8,4
+t0,209,GoLang,3,7
+z9,210,Validacion del software,4,7
+o1,211,Diseño de sistemas de software,4,8
+e0,212,Programacion 1,7,4
+s7,213,Programacion exploratoria,4,7
+y9,214,Programacion orientada a objetos,7,8
+x8,215,Programacion 3,3,8
+h6,216,GoLang,7,5
+e7,217,Teoria de la informacion,8,6
+j6,218,Interfaces de usuario,3,6
+b7,219,Web 1,4,4
+z3,220,Web 1,4,4
+i2,221,Teoria de la informacion,6,8
+i3,222,MongoDB,4,3
+f7,223,Electricidad y magnetismo,7,7
+z8,224,Angular JS,8,7
+z8,225,Interfaces de usuario,4,6
+g9,226,Base de datos,5,5
+g5,227,Analisis y diseño de algoritmos 2,4,6
+q8,228,Angular JS,3,8
+k6,229,Probabilidad y estadistica,5,3
+f1,230,Ingles 1,7,6
+k1,231,Estructura de almacenamiento de datos,4,7
+n6,232,Sistemas operativos,7,5
+f3,233,Desarrollo de aplicaiciones en redes,3,5
+w0,234,Ingenieria de software,8,3
+f1,235,Programacion 2,7,4
+o5,236,Desarrollo de aplicaiciones en redes,3,8
+i4,237,Analisis y diseño de algoritmos 2,4,5
+t5,238,Desarrollo de aplicaiciones en redes,3,8
+a0,239,Programacion 3,5,5
+o4,240,Estructura de almacenamiento de datos,3,7
+c5,241,Programacion 3,5,7
+b4,242,Analisis y diseño de algoritmos 2,5,8
+e4,243,Estructura de almacenamiento de datos,7,7
+m2,244,Quimica,4,4
+v8,245,Metodologias de desarrollo de software,4,7
+u5,246,Ciencias de la computacion 2,8,6
+b8,247,Sistemas operativos,4,5
+r0,248,Analisis y diseño de algoritmos 2,8,4
+a2,249,Analisis y diseño de algoritmos 2,4,8
+i8,250,Ciencias de la computacion 2,4,4
+t1,251,Analisis matematico 1,7,8
+h3,252,Algebra lineal,6,3
+g2,253,Analisis y diseño de algoritmos,4,8
+j4,254,Analisis matematico 1,3,7
+l7,255,Introduccion al calculo diferencial,6,5
+q4,256,Electronica digital,4,6
+n0,257,Analisis matematico 2,7,4
+l7,258,Diseño de sistemas de software,7,5
+l0,259,Quimica,6,6
+z7,260,Matematica discreta,4,3
+f4,261,Comunicacion de datos 1,5,7
+s4,262,Matematica discreta,8,8
+v6,263,Comunicacion de datos 1,8,5
+v2,264,Fisica general,4,7
+n1,265,Ciencias de la computacion 1,7,7
+d1,266,Programacion 2,5,8
+z5,267,Interfaces de usuario,3,7
+r9,268,Programacion orientada a objetos,6,6
+r5,269,Ciencias de la computacion 1,8,4
+z9,270,Programacion 2,6,7
+h9,271,Desarrollo de aplicaiciones en redes,8,7
+d2,272,Electronica digital,4,3
+a4,273,Programacion 1,3,5
+u6,274,Arquitectura de computadoras,3,7
+n2,275,Teoria de la informacion,4,8
+j3,276,Sistemas operativos,3,3
+n8,277,Analisis y diseño de algoritmos 2,8,8
+w5,278,MongoDB,7,4
+f3,279,Web 2,4,4
+s2,280,Quimica,3,8
+i0,281,Arquitectura de computadoras,6,4
+n6,282,Comunicacion de datos 1,5,7
+d2,283,Ingenieria de software,7,7
+q9,284,Programacion 2,6,6
+u8,285,Quimica,6,6
+x7,286,Validacion del software,6,5
+x1,287,Analisis y diseño de algoritmos 2,7,3
+g0,288,Ciencias de la computacion 1,6,3
+s5,289,Programacion orientada a objetos,8,6
+s0,290,Metodologias de desarrollo de software,7,6
+m6,291,Sistemas operativos,7,7
+y5,292,Metodologias de desarrollo de software,3,7
+c1,293,Analisis y diseño de algoritmos,8,7
+p9,294,Arquitectura de computadoras,8,4
+x7,295,Analisis matematico 2,5,7
+f6,296,Interfaces de usuario,5,5
+h7,297,Lenguajes de programacion,5,7
+s2,298,Lenguajes de programacion,3,8
+c6,299,Teoria de la informacion,7,7
+i1,300,Arquitecturas web,3,8
+s4,301,Electronica digital,4,8
+f9,302,Fisica general,6,8
+d3,303,Analisis matematico 2,8,6
+v1,304,Quimica,4,7
+f5,305,Diseño de compiladores,3,5
+r2,306,Ciencias de la computacion 2,4,4
+a3,307,Matematica discreta,4,8
+i4,308,MongoDB,5,3
+f5,309,Sistemas operativos,7,6
+y9,310,Ingles 1,5,3
+h4,311,Electricidad y magnetismo,6,5
+s6,312,Electronica digital,6,5
+k3,313,Probabilidad y estadistica,7,6
+g3,314,Desarrollo de aplicaiciones en redes,5,6
+d5,315,Ingles 2,8,4
+o7,316,Algebra lineal,5,3
+f5,317,Ingles 1,7,4
+b3,318,Algebra 1,6,4
+j2,319,Programacion exploratoria,7,5
+q3,320,Fisica general,3,7
+f3,321,Quimica,6,5
+x8,322,Algebra 1,8,4
+c7,323,Fisica general,8,3
+j4,324,Ingles 1,5,7
+z9,325,Estructura de almacenamiento de datos,3,7
+p8,326,Sistemas operativos,3,4
+m9,327,Analisis matematico 1,6,6
+w2,328,Programacion 1,8,5
+p2,329,Arquitectura de computadoras,5,3
+h7,330,Quimica,8,8
+a8,331,Sistemas operativos,5,7
+o6,332,Algebra lineal,7,4
+l7,333,MongoDB,8,4
+j9,334,Programacion 1,5,6
+c2,335,Ingles 1,6,7
+z6,336,Electricidad y magnetismo,4,4
+a7,337,Arquitectura de computadoras 1,4,8
+g1,338,Taller de matematica computacional,3,8
+q3,339,Interfaces de usuario,7,8
+m3,340,Arquitectura de computadoras,6,7
+e5,341,Arquitecturas web,4,4
+g4,342,Matematica discreta,4,4
+x5,343,Analisis y diseño de algoritmos 2,6,5
+s9,344,Analisis y diseño de algoritmos,6,4
+q4,345,Algebra 1,6,6
+t7,346,Programacion 2,8,6
+a7,347,Arquitectura de computadoras 1,3,6
+i9,348,Teoria de la informacion,5,3
+k8,349,Programacion 3,8,5
+c6,350,Matematica discreta,3,5
+i6,351,Interfaces de usuario,5,5
+a8,352,Taller de matematica computacional,4,3
+j7,353,Comunicacion de datos 2,6,5
+y5,354,Analisis y diseño de algoritmos,4,3
+f4,355,Diseño de compiladores,3,7
+s9,356,Programacion 1,6,6
+v8,357,Web 1,4,6
+m1,358,Programacion 3,4,4
+t8,359,Quimica,7,7
+o4,360,Validacion del software,3,7
+b9,361,Taller de matematica computacional,7,5
+h2,362,GoLang,7,3
+o8,363,Ingles 1,3,6
+o5,364,Electronica digital,7,6
+n7,365,Lenguajes de programacion,6,6
+s2,366,Ciencias de la computacion 2,4,7
+d8,367,Electronica digital,7,3
+h6,368,Taller de matematica computacional,3,4
+j3,369,Ciencias de la computacion 1,5,7
+q3,370,Web 1,3,7
+u2,371,MongoDB,8,3
+o4,372,Programacion exploratoria,4,5
+p3,373,Ingles 1,7,3
+u1,374,Fisica general,3,6
+b6,375,Analisis matematico 1,3,5
+f7,376,Sistemas operativos,7,6
+i7,377,Matematica discreta,6,7
+z6,378,Programacion 1,5,8
+y1,379,Algebra lineal,5,6
+s4,380,Programacion 1,4,6
+z6,381,Ciencias de la computacion 2,4,6
+g7,382,Arquitectura de computadoras 1,8,5
+p2,383,MongoDB,3,4
+q2,384,Lenguajes de programacion,5,5
+h8,385,Probabilidad y estadistica,4,7
+f9,386,Sistemas operativos,8,8
+o8,387,MongoDB,7,3
+b8,388,Analisis y diseño de algoritmos,5,8
+o0,389,Ciencias de la computacion 2,7,6
+a9,390,Algebra 1,5,4
+x2,391,Analisis matematico 2,4,7
+h0,392,MongoDB,7,3
+o7,393,Algebra lineal,6,3
+q8,394,Lenguajes de programacion,7,4
+m9,395,MongoDB,7,3
+h3,396,Lenguajes de programacion,3,8
+z7,397,Web 2,6,8
+l8,398,Analisis y diseño de algoritmos,8,7
+f6,399,Estructura de almacenamiento de datos,4,6
+d0,400,MongoDB,6,7
+a1,401,Arquitecturas de sistemas,5,5
+o2,402,Arquitecturas de sistemas,6,7
+i7,403,Ciencias de la computacion 1,5,5
+g9,404,Desarrollo de aplicaiciones en redes,7,4
+x3,405,Fisica general,3,4
+o9,406,Arquitecturas de sistemas,3,3
+j0,407,Ingenieria de software,5,6
+f5,408,Interfaces de usuario,7,7
+q9,409,Ciencias de la computacion 2,5,4
+s0,410,Arquitectura de computadoras 1,3,6
+g8,411,Probabilidad y estadistica,6,6
+i2,412,Angular JS,6,3
+t8,413,Introduccion al calculo diferencial,8,5
+e0,414,Comunicacion de datos 2,6,5
+i5,415,GoLang,3,3
+a0,416,Comunicacion de datos 2,8,6
+l9,417,Analisis y diseño de algoritmos,4,8
+a0,418,Ingles 1,3,4
+p1,419,Web 1,8,8
+t8,420,Diseño de sistemas de software,5,7
+t9,421,Ciencias de la computacion 1,7,6
+g8,422,Comunicacion de datos 2,4,8
+f9,423,Web 1,5,6
+b0,424,Electricidad y magnetismo,4,7
+r6,425,Introduccion al calculo diferencial,4,6
+x9,426,Algebra lineal,3,4
+q3,427,Ingles 1,6,7
+d0,428,Electronica digital,5,7
+k4,429,Matematica discreta,7,3
+c6,430,Analisis y diseño de algoritmos 2,3,8
+i1,431,Fisica general,8,7
+d2,432,Ciencias de la computacion 1,4,6
+q5,433,Introduccion al calculo diferencial,5,5
+v3,434,Comunicacion de datos 1,3,7
+l3,435,MongoDB,6,4
+g5,436,Programacion exploratoria,4,4
+g8,437,MongoDB,7,7
+z9,438,Programacion 1,5,7
+e1,439,Programacion exploratoria,7,6
+y4,440,Ingles 2,8,5
+l4,441,Comunicacion de datos 2,3,7
+p2,442,Electronica digital,7,3
+z4,443,Validacion del software,7,3
+u6,444,Electricidad y magnetismo,8,8
+t5,445,Analisis y diseño de algoritmos 2,7,5
+b4,446,Lenguajes de programacion,4,5
+j4,447,Arquitecturas web,3,7
+m2,448,Algebra 1,8,5
+g0,449,Arquitectura de computadoras,3,3
+c5,450,Introduccion al calculo diferencial,7,8
+l8,451,Comunicacion de datos 2,3,3
+a5,452,Web 1,7,8
+r2,453,Arquitectura de computadoras 1,6,5
+h6,454,Introduccion al calculo diferencial,3,4
+e1,455,Arquitecturas de sistemas,7,7
+s9,456,Programacion orientada a objetos,3,7
+l3,457,Electricidad y magnetismo,6,8
+d2,458,Diseño de sistemas de software,8,4
+q6,459,Arquitectura de computadoras 1,5,5
+p7,460,Analisis matematico 2,6,8
+b7,461,Comunicacion de datos 1,3,3
+f3,462,Analisis matematico 2,6,5
+l6,463,Programacion 1,8,6
+p7,464,Algebra lineal,5,7
+n1,465,Base de datos,4,4
+c7,466,Comunicacion de datos 2,8,8
+u3,467,Programacion 3,8,3
+n0,468,Teoria de la informacion,6,5
+i8,469,Matematica discreta,3,6
+i5,470,Ciencias de la computacion 1,5,3
+p8,471,Ingles 2,7,5
+u4,472,Taller de matematica computacional,3,8
+c0,473,Taller de matematica computacional,4,7
+g9,474,Base de datos,8,8
+u9,475,Lenguajes de programacion,5,7
+c4,476,Matematica discreta,8,5
+m7,477,Diseño de compiladores,6,6
+s0,478,Arquitecturas web,8,6
+b9,479,Metodologias de desarrollo de software,3,6
+u7,480,Arquitectura de computadoras 1,6,4
+p3,481,Arquitectura de computadoras,3,7
+e2,482,Ingenieria de software,4,6
+j0,483,Quimica,5,4
+m7,484,Arquitecturas web,4,4
+n5,485,Web 1,5,8
+l7,486,Matematica discreta,6,3
+b8,487,Fisica general,4,8
+h8,488,Quimica,7,4
+f2,489,Algebra lineal,8,5
+n6,490,Interfaces de usuario,3,3
+m9,491,Lenguajes de programacion,6,6
+m9,492,Validacion del software,3,7
+m9,493,Probabilidad y estadistica,4,5
+g9,494,Ingles 1,4,8
+t4,495,Algebra lineal,7,8
+n4,496,Ciencias de la computacion 1,6,3
+b4,497,Ingles 1,4,7
+x3,498,Web 2,3,7
+k6,499,Angular JS,5,8
+w9,500,Interfaces de usuario,8,7
+q2,501,Estructura de almacenamiento de datos,8,5
+u2,502,Comunicacion de datos 2,4,3
+c4,503,Fisica general,3,7
+e0,504,Angular JS,4,3
+n3,505,Analisis y diseño de algoritmos 2,4,7
+l2,506,Angular JS,4,3
+a4,507,Algebra 1,8,7
+h9,508,Diseño de compiladores,6,5
+q3,509,Ingles 1,3,5
+y6,510,Electronica digital,5,7
+n7,511,Ingenieria de software,6,6
+t7,512,Programacion exploratoria,5,3
+z8,513,Arquitectura de computadoras 1,3,3
+a4,514,Sistemas operativos,6,6
+s9,515,Fisica general,3,6
+k2,516,Electronica digital,5,6
+c5,517,Taller de matematica computacional,4,4
+f7,518,Comunicacion de datos 1,8,8
+t8,519,Programacion orientada a objetos,8,7
+k3,520,Metodologias de desarrollo de software,8,7
+n9,521,Desarrollo de aplicaiciones en redes,8,5
+p2,522,Fisica general,6,5
+y2,523,Base de datos,7,4
+p9,524,Comunicacion de datos 1,4,3
+o1,525,Programacion 2,6,7
+c6,526,GoLang,6,5
+o4,527,Desarrollo de aplicaiciones en redes,3,5
+d1,528,Base de datos,5,7
+t7,529,Introduccion al calculo diferencial,8,3
+x9,530,Arquitectura de computadoras 1,8,5
+r1,531,Probabilidad y estadistica,3,6
+d9,532,Ingles 1,8,4
+s0,533,Arquitecturas de sistemas,3,8
+q6,534,Fisica general,3,8
+j3,535,Programacion 3,4,6
+n4,536,Lenguajes de programacion,5,7
+f0,537,Fisica general,6,7
+m4,538,Ingenieria de software,4,7
+r1,539,Validacion del software,6,7
+b7,540,Ingenieria de software,3,5
+d0,541,Ingles 2,3,3
+w0,542,Arquitecturas de sistemas,4,5
+q5,543,Electronica digital,8,4
+k9,544,Teoria de la informacion,3,6
+h6,545,Ingles 1,8,3
+b4,546,Validacion del software,6,4
+x3,547,Electronica digital,3,3
+g9,548,Electricidad y magnetismo,8,8
+o9,549,Lenguajes de programacion,4,5
+l4,550,Ingles 1,4,4
+i1,551,Programacion orientada a objetos,5,8
+x7,552,Interfaces de usuario,8,8
+a8,553,Web 2,6,6
+r2,554,Analisis y diseño de algoritmos 2,7,5
+k4,555,Angular JS,8,4
+q2,556,Diseño de compiladores,3,3
+x2,557,Analisis matematico 2,7,8
+e8,558,Introduccion al calculo diferencial,5,7
+b9,559,Matematica discreta,6,5
+o4,560,Analisis y diseño de algoritmos,6,4
+x3,561,Arquitecturas web,4,4
+w6,562,Teoria de la informacion,8,8
+s4,563,Taller de matematica computacional,3,6
+i9,564,Algebra 1,8,5
+d9,565,Validacion del software,8,6
+x9,566,Arquitectura de computadoras,8,3
+i9,567,Ingles 2,8,4
+r3,568,Arquitectura de computadoras,7,3
+h4,569,Ciencias de la computacion 1,3,8
+t1,570,Probabilidad y estadistica,8,6
+h4,571,Web 2,4,4
+p2,572,Interfaces de usuario,5,4
+x9,573,Analisis y diseño de algoritmos 2,5,7
+y9,574,Web 2,3,3
+z4,575,Interfaces de usuario,5,6
+d2,576,Algebra lineal,5,8
+g5,577,Fisica general,4,5
+d0,578,Lenguajes de programacion,7,3
+w5,579,Validacion del software,7,4
+q1,580,Analisis matematico 2,6,7
+l7,581,Web 1,6,6
+g6,582,Angular JS,4,7
+m2,583,Ingles 1,5,7
+g1,584,Sistemas operativos,5,4
+x9,585,Analisis matematico 1,5,6
+v6,586,Comunicacion de datos 2,6,7
+c5,587,Comunicacion de datos 1,3,5
+z3,588,Sistemas operativos,4,7
+m1,589,Analisis y diseño de algoritmos 2,4,7
+k7,590,Web 2,8,7
+i7,591,Arquitecturas de sistemas,4,8
+n8,592,Metodologias de desarrollo de software,6,8
+a6,593,Base de datos,5,8
+z7,594,Diseño de sistemas de software,7,8
+y6,595,Web 1,5,5
+z7,596,Arquitecturas web,7,7
+g3,597,Quimica,8,7
+i6,598,Interfaces de usuario,6,5
+v9,599,Arquitectura de computadoras 1,5,3
+a5,600,Probabilidad y estadistica,5,5
+x6,601,Electronica digital,8,8
+f9,602,Taller de matematica computacional,4,6
+e2,603,Diseño de sistemas de software,3,4
+u0,604,Estructura de almacenamiento de datos,5,3
+y1,605,Ciencias de la computacion 1,4,7
+f0,606,Taller de matematica computacional,5,7
+v2,607,Taller de matematica computacional,3,7
+u1,608,Interfaces de usuario,7,3
+a2,609,Analisis matematico 1,6,5
+k0,610,Validacion del software,7,4
+h1,611,Algebra lineal,6,7
+z6,612,Web 1,3,5
+h3,613,Arquitectura de computadoras,5,5
+z5,614,Estructura de almacenamiento de datos,8,4
+i5,615,Programacion 1,6,8
+w8,616,Arquitecturas de sistemas,3,5
+k9,617,Programacion 2,7,7
+u8,618,Base de datos,7,7
+u6,619,Ciencias de la computacion 1,6,3
+o3,620,Algebra 1,4,4
+u2,621,Fisica general,3,8
+u9,622,Ingles 2,8,4
+x4,623,Ciencias de la computacion 1,3,5
+h4,624,Base de datos,4,6
+v4,625,Taller de matematica computacional,6,5
+g8,626,Fisica general,3,5
+e5,627,Desarrollo de aplicaiciones en redes,6,7
+t8,628,Probabilidad y estadistica,8,6
+w5,629,Quimica,3,8
+u5,630,Probabilidad y estadistica,6,5
+i5,631,Lenguajes de programacion,6,5
+g2,632,Ingles 2,4,6
+y4,633,Analisis matematico 2,5,8
+m8,634,Programacion 1,3,6
+x5,635,Estructura de almacenamiento de datos,8,7
+p8,636,Analisis y diseño de algoritmos 2,3,6
+j9,637,GoLang,3,6
+v9,638,Programacion 3,5,7
+s5,639,Programacion 3,4,7
+f0,640,Web 1,8,7
+o9,641,Taller de matematica computacional,3,3
+d1,642,Fisica general,7,4
+l7,643,Web 2,6,6
+k4,644,Metodologias de desarrollo de software,3,3
+e2,645,Ingles 1,4,6
+x4,646,Lenguajes de programacion,5,4
+e7,647,Angular JS,7,7
+f1,648,Comunicacion de datos 2,8,6
+r6,649,Arquitectura de computadoras 1,4,3
+d9,650,Lenguajes de programacion,7,8
+k8,651,Comunicacion de datos 1,8,4
+r1,652,Quimica,4,5
+q6,653,Ingenieria de software,5,3
+c4,654,Electronica digital,6,3
+a7,655,Ingles 2,4,3
+f9,656,Programacion orientada a objetos,5,8
+h6,657,Analisis y diseño de algoritmos 2,3,7
+y8,658,Analisis matematico 2,4,8
+r3,659,Validacion del software,5,4
+l3,660,Base de datos,3,8
+t4,661,Electricidad y magnetismo,8,8
+q8,662,Programacion 2,5,3
+h8,663,Ingles 2,7,5
+g3,664,Fisica general,7,5
+u2,665,Interfaces de usuario,6,6
+g7,666,Validacion del software,3,5
+w1,667,Diseño de sistemas de software,4,7
+s6,668,Comunicacion de datos 2,3,3
+p7,669,Fisica general,3,4
+e0,670,Web 2,7,6
+m9,671,Programacion exploratoria,6,5
+i3,672,Teoria de la informacion,4,4
+h3,673,Base de datos,3,6
+m0,674,Metodologias de desarrollo de software,7,4
+p9,675,Ciencias de la computacion 1,7,6
+f3,676,Programacion exploratoria,3,4
+l8,677,Base de datos,7,6
+m1,678,Programacion 2,7,8
+d7,679,Programacion 3,6,8
+s2,680,Validacion del software,3,6
+s2,681,Arquitectura de computadoras,8,4
+s8,682,Analisis y diseño de algoritmos 2,4,5
+l2,683,Metodologias de desarrollo de software,3,5
+d6,684,Quimica,8,8
+d4,685,Estructura de almacenamiento de datos,6,5
+x3,686,Ingles 2,3,6
+v4,687,Sistemas operativos,6,8
+z5,688,Analisis y diseño de algoritmos,8,7
+h2,689,Desarrollo de aplicaiciones en redes,8,3
+a9,690,Arquitectura de computadoras 1,3,7
+n5,691,Teoria de la informacion,8,7
+d4,692,Ciencias de la computacion 2,3,3
+z2,693,Ingenieria de software,4,4
+p6,694,Metodologias de desarrollo de software,5,7
+f9,695,Teoria de la informacion,7,8
+h8,696,Sistemas operativos,8,8
+a2,697,Matematica discreta,6,3
+f2,698,Programacion 1,5,7
+x5,699,Analisis matematico 2,5,4
+g4,700,Analisis y diseño de algoritmos 2,8,4
+k7,701,Arquitecturas web,3,6
+k6,702,Validacion del software,7,4
+g7,703,Desarrollo de aplicaiciones en redes,4,8
+k8,704,Programacion exploratoria,7,5
+v3,705,Quimica,4,4
+h5,706,Validacion del software,7,8
+p4,707,Programacion 1,3,4
+h4,708,Programacion orientada a objetos,3,7
+g5,709,GoLang,4,7
+m3,710,Validacion del software,8,8
+c4,711,Angular JS,8,6
+w9,712,Base de datos,6,7
+t2,713,Arquitectura de computadoras 1,6,5
+a2,714,Ingenieria de software,5,8
+k4,715,Probabilidad y estadistica,8,6
+b7,716,Desarrollo de aplicaiciones en redes,4,7
+j7,717,Diseño de compiladores,7,3
+l8,718,Ciencias de la computacion 2,7,6
+o1,719,Angular JS,8,4
+p8,720,Desarrollo de aplicaiciones en redes,6,6
+e9,721,Ingenieria de software,7,4
+k7,722,Analisis matematico 1,3,8
+c9,723,Matematica discreta,3,4
+e9,724,Programacion 1,8,8
+n2,725,Electronica digital,6,8
+a4,726,Fisica general,7,8
+o9,727,GoLang,5,3
+m1,728,Sistemas operativos,8,7
+f8,729,Analisis matematico 1,8,6
+d1,730,Comunicacion de datos 2,7,8
+g4,731,Comunicacion de datos 1,4,5
+t8,732,Web 1,5,4
+s5,733,Probabilidad y estadistica,5,4
+f8,734,Teoria de la informacion,3,8
+a2,735,Web 2,7,7
+m9,736,Angular JS,4,5
+y9,737,Programacion 3,6,4
+j5,738,Estructura de almacenamiento de datos,3,4
+a5,739,Estructura de almacenamiento de datos,6,5
+e0,740,Ingles 2,5,6
+e7,741,Ingles 2,5,3
+k9,742,Validacion del software,7,6
+y7,743,Metodologias de desarrollo de software,5,6
+k1,744,Arquitectura de computadoras,6,7
+u5,745,Taller de matematica computacional,5,7
+z6,746,Arquitecturas de sistemas,5,4
+i9,747,Ingles 1,5,8
+l9,748,Ingenieria de software,5,6
+t5,749,Programacion 2,8,8
+p8,750,Base de datos,8,7
+e8,751,Base de datos,6,6
+n1,752,Diseño de sistemas de software,7,7
+a0,753,Arquitectura de computadoras,3,5
+e9,754,MongoDB,4,6
+i5,755,Ciencias de la computacion 1,5,4
+b3,756,Interfaces de usuario,7,5
+w0,757,Ciencias de la computacion 2,5,6
+c3,758,Programacion 1,5,5
+p1,759,Analisis y diseño de algoritmos 2,5,6
+a1,760,Analisis matematico 1,3,5
+c1,761,Lenguajes de programacion,8,4
+v1,762,Algebra lineal,4,5
+c0,763,Sistemas operativos,4,4
+b2,764,Ciencias de la computacion 1,5,5
+m7,765,GoLang,4,6
+d7,766,Diseño de sistemas de software,3,3
+h2,767,Ingenieria de software,3,6
+u1,768,Lenguajes de programacion,4,4
+v6,769,Ingles 2,3,6
+o5,770,Angular JS,6,6
+p2,771,Estructura de almacenamiento de datos,4,7
+q1,772,Algebra lineal,3,6
+x9,773,Comunicacion de datos 2,7,8
+z9,774,Metodologias de desarrollo de software,6,6
+l7,775,Programacion exploratoria,7,7
+j4,776,Validacion del software,6,5
+o2,777,Diseño de compiladores,4,7
+f6,778,Interfaces de usuario,4,6
+z9,779,Programacion exploratoria,8,8
+s5,780,Programacion 2,5,7
+f6,781,Analisis matematico 2,7,8
+i6,782,Estructura de almacenamiento de datos,3,8
+s1,783,Ingles 1,5,7
+d3,784,Angular JS,5,8
+r5,785,Probabilidad y estadistica,7,5
+e8,786,Fisica general,4,4
+c2,787,Taller de matematica computacional,8,7
+h0,788,Interfaces de usuario,4,6
+u7,789,Fisica general,8,6
+v4,790,Algebra 1,8,5
+k0,791,Arquitecturas de sistemas,4,4
+c4,792,Programacion orientada a objetos,7,6
+k4,793,Programacion 2,4,3
+o4,794,Programacion orientada a objetos,5,5
+y2,795,Base de datos,8,5
+z8,796,Algebra lineal,4,8
+l1,797,Programacion 1,4,6
+d1,798,Electronica digital,8,5
+o3,799,Ingenieria de software,3,6
+r8,800,Programacion 2,8,6
+g5,801,Arquitectura de computadoras 1,5,6
+o7,802,Interfaces de usuario,3,4
+k9,803,Programacion exploratoria,5,6
+g5,804,Algebra 1,3,7
+t7,805,Algebra 1,6,8
+z7,806,Introduccion al calculo diferencial,8,8
+y8,807,Diseño de sistemas de software,6,3
+h0,808,Validacion del software,3,5
+l7,809,Sistemas operativos,8,8
+m1,810,Ingenieria de software,5,8
+h0,811,Probabilidad y estadistica,4,3
+l3,812,Ingles 2,4,4
+r4,813,Analisis matematico 2,8,5
+d5,814,Algebra lineal,7,3
+e8,815,Ingles 2,7,7
+j9,816,Matematica discreta,3,3
+x9,817,Lenguajes de programacion,8,3
+a7,818,Matematica discreta,3,7
+b4,819,Angular JS,8,7
+u7,820,Analisis y diseño de algoritmos,3,7
+r6,821,Electronica digital,6,3
+w7,822,Analisis matematico 1,4,3
+e4,823,Programacion 1,4,4
+v9,824,Analisis y diseño de algoritmos,8,4
+z8,825,Taller de matematica computacional,3,3
+o9,826,Web 2,5,3
+q1,827,Lenguajes de programacion,6,4
+d5,828,Arquitectura de computadoras 1,3,7
+d5,829,Programacion orientada a objetos,5,6
+v7,830,Comunicacion de datos 1,5,4
+e9,831,Algebra lineal,6,5
+h3,832,Quimica,3,4
+u4,833,Algebra 1,7,5
+d8,834,Diseño de compiladores,8,8
+f7,835,Desarrollo de aplicaiciones en redes,4,7
+p1,836,Diseño de compiladores,4,5
+u6,837,Web 1,6,4
+n6,838,Interfaces de usuario,8,7
+h0,839,Electricidad y magnetismo,4,7
+q4,840,Analisis y diseño de algoritmos,6,8
+v6,841,Arquitectura de computadoras,8,6
+p1,842,Electronica digital,6,6
+e9,843,Programacion 3,5,5
+v1,844,Algebra 1,7,3
+t7,845,Arquitecturas web,6,7
+q6,846,Electricidad y magnetismo,7,8
+z4,847,Metodologias de desarrollo de software,5,4
+b9,848,Analisis y diseño de algoritmos,4,6
+p6,849,Arquitectura de computadoras 1,5,8
+u6,850,Interfaces de usuario,4,8
+l8,851,Analisis y diseño de algoritmos 2,8,8
+l7,852,Fisica general,4,6
+n7,853,Desarrollo de aplicaiciones en redes,4,4
+x9,854,Quimica,7,6
+h7,855,Arquitectura de computadoras 1,7,8
+o8,856,Sistemas operativos,3,3
+w8,857,Comunicacion de datos 2,6,3
+x5,858,Matematica discreta,3,5
+i0,859,Programacion 1,8,4
+c4,860,Algebra 1,5,8
+f8,861,Quimica,8,7
+a7,862,Arquitecturas de sistemas,6,5
+r0,863,Arquitectura de computadoras,4,8
+p5,864,Electronica digital,3,4
+f7,865,Quimica,3,4
+q1,866,Analisis matematico 2,4,3
+q3,867,Base de datos,3,3
+o5,868,Arquitectura de computadoras 1,4,3
+u6,869,Programacion exploratoria,7,6
+l3,870,Programacion orientada a objetos,3,6
+g0,871,Algebra lineal,4,4
+y0,872,Teoria de la informacion,4,8
+y3,873,Metodologias de desarrollo de software,7,8
+i8,874,Ciencias de la computacion 1,5,4
+s7,875,Comunicacion de datos 2,7,7
+t5,876,Programacion 2,7,7
+e7,877,Arquitectura de computadoras 1,6,5
+h1,878,Algebra lineal,7,7
+x1,879,Algebra lineal,4,6
+c7,880,Base de datos,4,4
+g7,881,Analisis matematico 1,7,4
+n4,882,Diseño de sistemas de software,8,6
+f8,883,Arquitecturas web,7,7
+i8,884,Ingles 2,3,6
+n7,885,Arquitectura de computadoras 1,7,5
+v0,886,Estructura de almacenamiento de datos,3,6
+n6,887,Comunicacion de datos 2,5,5
+j2,888,Programacion 1,7,5
+p4,889,Desarrollo de aplicaiciones en redes,7,4
+f0,890,Fisica general,3,5
+z9,891,Ciencias de la computacion 1,7,8
+w5,892,Ciencias de la computacion 2,4,8
+k0,893,Programacion 2,8,8
+w1,894,Analisis y diseño de algoritmos 2,3,8
+m8,895,Metodologias de desarrollo de software,6,5
+r2,896,Comunicacion de datos 2,5,4
+q1,897,Algebra 1,7,8
+w2,898,Programacion 3,3,4
+s7,899,Teoria de la informacion,5,7
+q8,900,Metodologias de desarrollo de software,6,8
+e7,901,Arquitectura de computadoras 1,5,7
+j5,902,Angular JS,3,4
+k6,903,Arquitecturas de sistemas,3,8
+e4,904,Arquitecturas web,4,4
+m2,905,Desarrollo de aplicaiciones en redes,7,3
+e3,906,Electricidad y magnetismo,4,5
+k0,907,Ciencias de la computacion 2,7,3
+h8,908,Probabilidad y estadistica,7,5
+x5,909,Diseño de compiladores,8,5
+t6,910,Arquitecturas de sistemas,3,4
+c8,911,Electricidad y magnetismo,4,3
+x8,912,Analisis matematico 1,5,5
+r8,913,Ingles 1,5,8
+y5,914,Arquitectura de computadoras 1,8,4
+l6,915,Analisis y diseño de algoritmos 2,8,3
+y1,916,Arquitecturas web,8,6
+i8,917,Comunicacion de datos 1,5,7
+z1,918,Base de datos,8,6
+j0,919,Arquitecturas de sistemas,5,3
+s5,920,Algebra 1,7,4
+f1,921,Metodologias de desarrollo de software,4,6
+d9,922,Web 2,3,7
+c9,923,Estructura de almacenamiento de datos,4,8
+z8,924,Probabilidad y estadistica,8,7
+t3,925,Programacion 1,5,5
+l9,926,Arquitecturas de sistemas,3,4
+r3,927,Interfaces de usuario,5,7
+i9,928,Analisis y diseño de algoritmos 2,3,7
+e1,929,Metodologias de desarrollo de software,4,4
+n6,930,Comunicacion de datos 1,6,4
+x7,931,Quimica,7,5
+e2,932,Metodologias de desarrollo de software,7,5
+m9,933,Ingles 2,5,4
+p6,934,Lenguajes de programacion,5,4
+x8,935,Analisis y diseño de algoritmos,3,8
+w7,936,Diseño de sistemas de software,5,3
+f7,937,Ingenieria de software,8,3
+y6,938,Programacion 3,5,4
+o2,939,Electricidad y magnetismo,5,7
+f6,940,Analisis y diseño de algoritmos 2,5,3
+k6,941,Base de datos,8,5
+y8,942,Validacion del software,7,8
+l4,943,Matematica discreta,7,6
+n4,944,Introduccion al calculo diferencial,4,8
+b0,945,Probabilidad y estadistica,7,7
+n7,946,Algebra 1,6,4
+w4,947,Programacion 3,8,4
+w5,948,Algebra 1,3,6
+a8,949,Electricidad y magnetismo,8,4
+n6,950,Electronica digital,5,4
+c4,951,Arquitectura de computadoras 1,5,3
+u8,952,Probabilidad y estadistica,3,6
+v1,953,Web 1,5,4
+v8,954,Comunicacion de datos 2,8,5
+c2,955,Desarrollo de aplicaiciones en redes,3,4
+l0,956,Introduccion al calculo diferencial,5,8
+y0,957,Fisica general,7,4
+e4,958,Teoria de la informacion,4,5
+u2,959,Desarrollo de aplicaiciones en redes,5,8
+j7,960,Arquitectura de computadoras,3,3
+w6,961,Ciencias de la computacion 1,4,8
+m6,962,Analisis y diseño de algoritmos,3,5
+g5,963,Ingles 1,6,7
+w2,964,Metodologias de desarrollo de software,3,6
+u0,965,Quimica,3,3
+e4,966,MongoDB,5,7
+i7,967,Base de datos,7,5
+v2,968,Metodologias de desarrollo de software,6,5
+c8,969,Sistemas operativos,5,6
+g6,970,Lenguajes de programacion,8,4
+t2,971,Algebra lineal,3,4
+w0,972,Angular JS,6,4
+z2,973,Analisis y diseño de algoritmos,3,4
+z7,974,Comunicacion de datos 2,7,4
+r3,975,Programacion 1,5,5
+s2,976,Programacion orientada a objetos,6,3
+e0,977,Arquitectura de computadoras,7,7
+c4,978,Arquitecturas de sistemas,4,4
+i7,979,Desarrollo de aplicaiciones en redes,3,7
+p4,980,Introduccion al calculo diferencial,5,6
+v5,981,Taller de matematica computacional,5,6
+c9,982,Lenguajes de programacion,4,7
+p3,983,Probabilidad y estadistica,6,4
+s4,984,Comunicacion de datos 2,7,4
+c3,985,Analisis y diseño de algoritmos 2,8,4
+j9,986,Electronica digital,3,6
+n1,987,Comunicacion de datos 2,6,4
+t1,988,Quimica,8,7
+s7,989,Teoria de la informacion,4,6
+e7,990,Analisis y diseño de algoritmos 2,5,6
+b8,991,Ciencias de la computacion 1,6,7
+s7,992,Comunicacion de datos 1,7,5
+l2,993,GoLang,7,8
+z7,994,Angular JS,8,4
+s7,995,Lenguajes de programacion,4,7
+p1,996,Estructura de almacenamiento de datos,7,7
+h4,997,Algebra 1,4,3
+j3,998,Arquitectura de computadoras,6,6
+b0,999,Ingles 2,7,6
+n6,1000,Teoria de la informacion,4,5
